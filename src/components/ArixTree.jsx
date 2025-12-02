@@ -376,12 +376,12 @@ export default function ArixTree() {
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none flex flex-col justify-between p-6 md:p-12 z-10">
         <div className="flex justify-between items-start pointer-events-auto">
             <div>
-                <h1 className="text-4xl md:text-5xl font-serif tracking-tighter text-[#D4AF37] drop-shadow-lg">ARIX</h1>
-                <p className="text-[10px] md:text-xs text-emerald-100 tracking-[0.3em] uppercase mt-2">Signature Collection</p>
+                <h1 className="text-4xl md:text-5xl font-serif tracking-tighter text-[#D4AF37] drop-shadow-lg">Christmas</h1>
+                <p className="text-[10px] md:text-xs text-emerald-100 tracking-[0.3em] mt-2">I still miss you.</p>
             </div>
         </div>
 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto text-center">
+        <div className="absolute top-[65%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto text-center">
             <button onClick={() => setIsTree(!isTree)} className="group relative px-8 py-4 bg-black/20 backdrop-blur-md border border-[#D4AF37]/30 hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-700 ease-out rounded-full overflow-hidden">
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-[#D4AF37]/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
                 <span className="relative text-[#D4AF37] font-serif tracking-widest text-lg md:text-xl">{isTree ? "SCATTER" : "ASSEMBLE"}</span>
@@ -390,7 +390,7 @@ export default function ArixTree() {
 
         <div className="flex justify-between items-end pointer-events-auto">
             <div className="text-[#D4AF37] text-xs font-mono h-4">{accentColor !== "#004225" && <span className="opacity-80 animate-pulse">AURA SHIFT DETECTED: {accentColor}</span>}</div>
-            <div className="flex gap-4 text-[#D4AF37] text-sm font-bold opacity-80"><span>INT.</span><span>EXP.</span><span>LUX.</span></div>
+            <div className="text-[#D4AF37] text-sm font-serif tracking-wider opacity-90">Liu Yue Han</div>
         </div>
       </div>
       <style jsx>{`
